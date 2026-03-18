@@ -20,6 +20,22 @@ Zomato Bangalore Restaurants Dataset (Kaggle)
 - Exploratory Data Analysis (EDA)
 - Data visualization
 
+## 📊 Visualizations
+### Ratings Distribution
+![Ratings](images/ratings_distribution.png)
+
+### Cost Distribution
+![Cost](images/cost_distribution.png)
+
+### Online Order vs Rating
+![Online Order](images/online_order_vs_rating.png)
+
+### Table Booking vs Rating
+![Table Booking](images/table_booking_vs_rating.png)
+
+### Correlation Heatmap
+![Heatmap](images/correlation_heatmap.png)
+
 ## ❓ Business Questions Answered
 - What is the distribution of restaurant ratings?
 - Does online ordering affect ratings?
