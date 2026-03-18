@@ -1,7 +1,7 @@
 # Zomato Data Analysis
 
 ## 📌 Objective
-To analyze Zomato restaurant data and extract insights related to ratings, cost, and customer preferences.
+Analyze Zomato restaurant data to understand customer preferences, ratings, and cost patterns.
 
 ## 📊 Dataset
 Zomato Bangalore Restaurants Dataset (Kaggle)
@@ -13,25 +13,17 @@ Zomato Bangalore Restaurants Dataset (Kaggle)
 - Seaborn
 - Matplotlib
 
-## 🔍 Analysis Performed
-- Data cleaning and preprocessing
-- Handling missing values
-- Removing duplicates
-- Exploratory Data Analysis (EDA)
-- Data visualization
-
-## ▶️ How to Run
-
-1. Download dataset
-2. Open notebook in Google Colab
-3. Upload zomato.csv
-4. Run all cells
-
 ## 🧹 Data Cleaning
-
 - Removed missing values
-- Converted rating column from text to numeric
-- Removed duplicates
+- Converted rating column from text (e.g., 4.1/5) to numeric
+- Removed duplicate records
+
+## ❓ Business Questions
+- What is the distribution of restaurant ratings?
+- Does online ordering affect ratings?
+- Does table booking influence ratings?
+- What is the cost distribution of restaurants?
+- Which restaurant types are most common?
 
 ## 📊 Visualizations
 ### Ratings Distribution
@@ -49,18 +41,17 @@ Zomato Bangalore Restaurants Dataset (Kaggle)
 ### Correlation Heatmap
 ![Heatmap](images/correlation_heatmap.png)
 
-## ❓ Business Questions Answered
-- What is the distribution of restaurant ratings?
-- Does online ordering affect ratings?
-- Does table booking influence ratings?
-- What is the cost distribution of restaurants?
-- Which restaurant types are most common?
-
 ## 📈 Key Insights
 - Most restaurants have ratings between 3.5 and 4.0.
 - Restaurants offering online orders tend to have slightly higher ratings.
-- Higher cost restaurants generally receive more votes.
-- Majority of restaurants fall in the mid-price range.
+- Higher cost restaurants receive more votes.
+- Most restaurants fall in the mid-price range.
 
 ## 📌 Conclusion
-This analysis helps understand customer preferences and restaurant trends, which can support better decision-making for restaurant businesses.
+The analysis shows that customer convenience (online ordering) and pricing play an important role in restaurant ratings and engagement.
+
+## ▶️ How to Run
+1. Download dataset
+2. Open notebook in Google Colab
+3. Upload zomato.csv
+4. Run all cells
