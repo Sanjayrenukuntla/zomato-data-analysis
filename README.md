@@ -42,10 +42,9 @@ Zomato Bangalore Restaurants Dataset (Kaggle)
 ![Heatmap](images/correlation_heatmap.png)
 
 ## 📈 Key Insights
-- Most restaurants have ratings between 3.5 and 4.0.
-- Restaurants offering online orders tend to have slightly higher ratings.
-- Higher cost restaurants receive more votes.
-- Most restaurants fall in the mid-price range.
+- Most restaurants are priced between ₹300–₹500, indicating strong demand for mid-range dining.
+- Online ordering shows a slight positive impact on ratings, suggesting convenience influences customer satisfaction.
+- Restaurants with higher cost tend to receive more votes, indicating higher customer engagement.
 
 ## 📌 Conclusion
 The analysis shows that customer convenience (online ordering) and pricing play an important role in restaurant ratings and engagement.
