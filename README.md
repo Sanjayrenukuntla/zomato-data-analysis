@@ -1,18 +1,37 @@
 # Zomato Data Analysis
 
-## Objective
-Analyze restaurant data to extract insights about ratings, cost, and services.
+## 📌 Objective
+To analyze Zomato restaurant data and extract insights related to ratings, cost, and customer preferences.
 
-## Tools Used
+## 📊 Dataset
+Zomato Bangalore Restaurants Dataset (Kaggle)
+
+## 🛠 Tools Used
 - Python
 - Pandas
+- NumPy
 - Seaborn
 - Matplotlib
 
-## Key Insights
-- Most restaurants have ratings between 3.5–4.0
-- Online ordering slightly improves ratings
-- Higher cost restaurants tend to have better ratings
+## 🔍 Analysis Performed
+- Data cleaning and preprocessing
+- Handling missing values
+- Removing duplicates
+- Exploratory Data Analysis (EDA)
+- Data visualization
 
-## Conclusion
-This analysis helps understand customer preferences and restaurant trends.
+## ❓ Business Questions Answered
+- What is the distribution of restaurant ratings?
+- Does online ordering affect ratings?
+- Does table booking influence ratings?
+- What is the cost distribution of restaurants?
+- Which restaurant types are most common?
+
+## 📈 Key Insights
+- Most restaurants have ratings between 3.5 and 4.0.
+- Restaurants offering online orders tend to have slightly higher ratings.
+- Higher cost restaurants generally receive more votes.
+- Majority of restaurants fall in the mid-price range.
+
+## 📌 Conclusion
+This analysis helps understand customer preferences and restaurant trends, which can support better decision-making for restaurant businesses.
