@@ -20,6 +20,19 @@ Zomato Bangalore Restaurants Dataset (Kaggle)
 - Exploratory Data Analysis (EDA)
 - Data visualization
 
+## ▶️ How to Run
+
+1. Download dataset
+2. Open notebook in Google Colab
+3. Upload zomato.csv
+4. Run all cells
+
+## 🧹 Data Cleaning
+
+- Removed missing values
+- Converted rating column from text to numeric
+- Removed duplicates
+
 ## 📊 Visualizations
 ### Ratings Distribution
 ![Ratings](images/ratings_distribution.png)
